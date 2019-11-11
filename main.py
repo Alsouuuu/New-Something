@@ -27,7 +27,7 @@ class MyWidjet(QMainWindow):
     def draw(self, qp):
         pen = QPen(Qt.yellow, 3)
         self.qp.setPen(pen)
-        x = randint(100, 400)
+        x = randint(100, 600)
         y = randint(100, 400)
         r = randint(0, 100)
         self.qp.drawEllipse(x, y, r, r)
